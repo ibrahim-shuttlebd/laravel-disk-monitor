@@ -2,9 +2,9 @@
 
 namespace Ibrahimshuttlebd\LaravelDiskMonitor\Tests;
 
+use Ibrahimshuttlebd\LaravelDiskMonitor\LaravelDiskMonitorServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Ibrahimshuttlebd\LaravelDiskMonitor\LaravelDiskMonitorServiceProvider;
 
 class TestCase extends Orchestra
 {
