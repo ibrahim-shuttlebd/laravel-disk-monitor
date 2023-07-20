@@ -20,7 +20,6 @@ class LaravelDiskMonitorCommand extends Command
 
         $file_count = count(Storage::disk($disk_name)->allFiles());
 
-
         DiskMonitorEntries::create([
             'disk_name' => $disk_name,
             'file_count' => $file_count,
